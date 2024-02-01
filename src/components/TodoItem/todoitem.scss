@@ -1,0 +1,13 @@
+.todo_item {
+    background-color: #fff;
+    padding: 5px 15px;
+    display: grid;
+    grid-template-columns: 50px 10fr 50px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+
+    .todo_icon {
+        font-size: 30px;
+    }
+}

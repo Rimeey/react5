@@ -1,0 +1,16 @@
+.todo {
+    &_message{
+        margin: 10px 0;
+        background-color: #fa0000;
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    &_items{
+        display: grid;
+        gap: 5px;
+        list-style-type: none;
+        margin: 10px 0;
+    }
+}

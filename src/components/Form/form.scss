@@ -1,0 +1,13 @@
+.form {
+    display: grid;
+    input{
+        padding: 15px;
+        font: {
+            size: 18px;
+        }
+        outline: none;
+        &:focus {
+            background-color: #fffbd6;
+        }
+    }
+}
